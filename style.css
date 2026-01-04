@@ -1,0 +1,80 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+/* Main content */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* Requirements */
+.requirements ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.requirements h2 {
+    color: #4CAF50;
+}
+
+/* Steps */
+.steps ol {
+    padding-left: 20px;
+}
+
+.steps li {
+    margin-bottom: 10px;
+}
+
+.steps code {
+    background-color: #eee;
+    padding: 2px 5px;
+    border-radius: 4px;
+    font-family: monospace;
+}
+
+.done {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #4CAF50;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #222;
+    color: #fff;
+    margin-top: 40px;
+    font-size: 0.9rem;
+}
+
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
