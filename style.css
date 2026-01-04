@@ -78,16 +78,14 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+/* Images */
 img {
     width: 400px;
     margin: 10px 0;
 }
-#too-long-need-short {
-    width: 300px;
-}
-#too-long-need-short2 {
-    width: 200px;
-}
-#too-short-need-long {
-    width: 600px;
-}
+
+/* Size variations */
+.medium { width: 300px; }
+.short  { width: 200px; }
+.long   { width: 600px; }
